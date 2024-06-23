@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio_Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -29,6 +30,7 @@
                 Hi,My name is <span class="purple">Om</span>
                 <div>and I'm a passionate </div>
                 <div>Web Devloper</div>
+                <span id="element"></span>
                 <div class="buttons">
                     <button class="btnd">Download</button>
                     <button class="btn">Vist Github</button>
@@ -36,12 +38,21 @@
             </div>
             <div class="rightsection">
                 <img src="./images/3d-web-developer-working-on-project-illustration-png.webp" alt="">
+
             </div>
 
         </section>
         <hr>
     </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <!-- Setup and start animation! -->
 
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Java Devloper', 'Front End-Devloper','Video Editor','Graphic Designer'],
+          typeSpeed: 50,
+        });
+      </script>
 </body>
 
 </html>

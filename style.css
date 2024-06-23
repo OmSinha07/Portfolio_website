@@ -6,6 +6,8 @@
 body {
   background-color: rgb(6, 6, 53);
   color: white;
+  font-family: 'Poppins';
+  
 }
 nav {
   display: flex;
@@ -80,6 +82,10 @@ main hr {
   height: 44px;
   border: solid;
   border-radius: 2px;
+}
+#element
+{
+    color: rgb(108, 1, 108);  
 }
 @media screen and (max-width: 800px) {
   nav ul li {
