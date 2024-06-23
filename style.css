@@ -1,52 +1,116 @@
-*
-{
-    margin: 0;
-    padding:  0;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
-body
-{
-    background-color: rgb(6, 6, 53);
-    color: white;
+body {
+  background-color: rgb(6, 6, 53);
+  color: white;
 }
-nav
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 80px;
-    background-color: rgb(8, 8, 69);
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(8, 8, 69);
 }
-.right ul
-{
-    display: flex;
-    margin: 56px;
+.right ul {
+  display: flex;
+  margin: 56px;
 }
 
-nav ul li{
-    list-style: none;
-    margin: 0px 23px;
+nav ul li {
+  list-style: none;
+  margin: 0px 23px;
 }
-@media screen and (max-width:800px) {
-
-    nav ul li{
+nav ul li a {
+  color: whitesmoke;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 140px 0;
+}
+.firstection > div {
+  width: 30%;
+}
+.leftsection {
+  font-size: 3rem;
+  margin: 84px;
+}
+.rightsection {
+  width: 30%;
+}
+.rightsection img {
+  width: 80%;
+  margin: 40px 0;
+  height: auto;
+}
+.purple {
+  color: rgb(108, 1, 108);
+}
+.secondsection {
+  max-width: 75vw;
+  margin: auto;
+}
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+.secondsection span {
+  color: blueviolet;
+}
+.secondsection h1 {
+  font-size: 3.5rem;
+}
+.buttons .btnd {
+  background-color: rgb(8, 8, 69);
+  color: white;
+  width: 35%;
+  height: 44px;
+  border: solid;
+  border-radius: 2px;
+}
+.buttons .btn {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 31%;
+  height: 44px;
+  border: solid;
+  border-radius: 2px;
+}
+@media screen and (max-width: 800px) {
+  nav ul li {
     list-style: none;
     margin: 0px;
-}
-nav
-{
+  }
+  nav {
     flex-direction: column;
-    height:30vh
-}
-nav ul {
+    height: 30vh;
+  }
+  nav ul {
     flex-direction: column;
-}
-}
-nav ul li a{
-    color: whitesmoke
-}
+  }
 
-nav ul li a:hover{
+  nav ul li a {
+    color: whitesmoke;
+  }
+
+  nav ul li a:hover {
     color: rgb(99, 28, 180);
     font-size: 1.1rem;
+  }
+  .firstSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .rightsection {
+    width: 82%;
+    margin: 39px;
+  }
+  .left {
+    font-size: 2.2rem;
+  }
 }
