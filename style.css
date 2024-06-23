@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding:  0;
+    text-decoration: none;
+}
+body
+{
+    background-color: rgb(6, 6, 53);
+    color: white;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(8, 8, 69);
+}
+.right ul
+{
+    display: flex;
+    margin: 56px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0px 23p
+}
+@media screen and (max-width:800px) {
+
+    nav ul li{
+    list-style: none;
+    margin: 0px;
+}
+nav
+{
+    flex-direction: column;
+    height:30vh
+}
+nav ul {
+    flex-direction: column;
+}
+}
+nav ul li a{
+    color: whitesmoke
+}
+
+nav ul li a:hover{
+    color: rgb(99, 28, 180);
+    font-size: 1.1rem;
+}
