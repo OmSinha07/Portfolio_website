@@ -94,7 +94,7 @@ main hr {
   }
   nav {
     flex-direction: column;
-    height: 30vh;
+    height: 40vh;
   }
   nav ul {
     flex-direction: column;
