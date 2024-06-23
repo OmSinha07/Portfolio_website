@@ -85,7 +85,7 @@ main hr {
 }
 #element
 {
-    color: rgb(108, 1, 108);  
+    color: rgb(108, 1, 108); 
 }
 @media screen and (max-width: 800px) {
   nav ul li {
