@@ -142,4 +142,8 @@ nav ul li a:hover {
     font-size: 2.2rem;
     margin-top: 30px;
   }
+  .leftsection {
+    font-size: 3rem;
+    margin: 84px;
+  }
 }
