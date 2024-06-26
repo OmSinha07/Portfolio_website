@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +9,7 @@
 body {
   background-color: rgb(6, 6, 53);
   color: white;
-  font-family: 'ml enthusiast ';
+  font-family: 'poppins','san-serif';
   
 }
 nav {
@@ -104,7 +107,57 @@ nav ul li a:hover {
 {
   font-size: 1.9rem;
 }
-@media screen and (max-width: 800px) {
+.contactform h1{
+  font-family: 'poppins','san-serif';
+  padding: 12px 0;
+ }
+.contactform{
+ padding: 0px 144px;
+ padding-top: 144px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.contactform form div{
+  padding: 18px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input{
+  width: 26vw;
+  border-radius: 5px;
+  margin: 6px 0 0 0;
+  padding: 3px;
+}
+#emailHelp
+{
+  font-size: 11px;
+  color: blueviolet;
+  margin:0 5px;
+  padding: 3px 0 0 0;
+}
+#fc
+{
+  display: flex;
+  flex-direction: row;
+}
+#isclient
+{
+  width: 24px;
+  margin: 3px 0;
+}
+ #submitbtn
+{
+  background-color: rgb(8, 8, 69);
+  color: white;
+  width: 35%;
+  height: 44px;
+  border: solid;
+  border-radius: 2px;
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) 
+{
   nav ul li {
     list-style: none;
     margin: 0px;
