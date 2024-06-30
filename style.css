@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap');
+/* HOME */
 * {
   margin: 0;
   padding: 0;
@@ -107,6 +108,7 @@ nav ul li a:hover {
 {
   font-size: 1.9rem;
 }
+/* CONTACT FORM */
 .contactform h1{
   font-family: 'poppins','san-serif';
   padding: 12px 0;
@@ -156,6 +158,104 @@ nav ul li a:hover {
   border-radius: 2px;
   cursor: pointer;
 }
+
+/*  ABOUT button */
+.about
+{
+  margin-bottom: 50px;  
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+  color: rgb(102 102 150);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-self: center;
+}
+.box h4
+{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+.tools h4
+{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+.percent
+{
+  position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+.percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+  #abouttable
+  {
+    background-color: #524ae8;
+  }
+  #pd
+  {
+    position: relative;
+    top: -182px;
+  }
+  #Degree
+  {
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+  }
+  .title
+  {
+    color: rgb(102 102 150);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  .contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+ul li a:hover
+{
+  color: aqua;  
+  font-weight: 300;
+}
 @media screen and (max-width: 800px) 
 {
   nav ul li {
@@ -199,4 +299,17 @@ nav ul li a:hover {
     font-size: 3rem;
     margin: 84px;
   }
+  .box 
+ {
+    grid-template-columns: repeat(1,1fr);
+ }
+ #submitbtn h3{
+  font-size: 15px;
+} 
+}
+@media screen and (max-width: 600px) 
+{
+  #submitbtn h3{
+    font-size: 10px;
+  } 
 }
