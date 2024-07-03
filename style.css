@@ -305,11 +305,35 @@ ul li a:hover
  }
  #submitbtn h3{
   font-size: 15px;
-} 
 }
+#aboutid
+{
+  margin: 40px;
+} 
+.contactform
+{
+  position: relative;
+  left: -53px;
+}
+}
+
 @media screen and (max-width: 600px) 
 {
   #submitbtn h3{
     font-size: 10px;
-  } 
+    }
+    #submitbtn
+    {
+     
+      width:auto;
+      border: solid;
+      border-radius: 8px;
+      cursor: pointer; 
+    } 
+      
+  #aboutid
+{
+  margin: 40px;
+  
+} 
 }
