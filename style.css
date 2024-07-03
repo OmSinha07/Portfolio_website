@@ -339,7 +339,7 @@ ul li a:hover
     #submitbtn
     {
      
-      width:auto;
+      width: 5vh;
       border: solid;
       border-radius: 8px;
       cursor: pointer; 
