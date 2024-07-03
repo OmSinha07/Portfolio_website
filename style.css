@@ -164,6 +164,10 @@ nav ul li a:hover {
 {
   margin-bottom: 50px;  
 }
+#aboutid
+{
+  margin: 20px;
+} 
 .about:last-child
 {
     margin-bottom: 0;
@@ -306,6 +310,11 @@ ul li a:hover
  #submitbtn h3{
   font-size: 15px;
 }
+#submitbtn:hover
+{
+  color: rgb(99, 28, 180); 
+}
+  
 #aboutid
 {
   margin: 40px;
@@ -315,6 +324,11 @@ ul li a:hover
   position: relative;
   left: -53px;
 }
+#submitbtn:hover
+{
+  color: rgb(99, 28, 180); 
+}
+  
 }
 
 @media screen and (max-width: 600px) 
@@ -330,6 +344,10 @@ ul li a:hover
       border-radius: 8px;
       cursor: pointer; 
     } 
+    #submitbtn:hover
+    {
+      color: rgb(99, 28, 180); 
+    }
       
   #aboutid
 {
