@@ -264,7 +264,7 @@ ul li a:hover
 {
   display: flex;
   flex-direction: row;
-  gap: 47px
+  gap: 20px;
 
 }
 #pbuttons
@@ -273,10 +273,10 @@ ul li a:hover
 }
 #imgwebdev
 {
-  width: 400px;
+  width: 25vw;
   height: 300px;
 }
-#projects
+#webdevp
 {
   margin: 20px;
 }
@@ -291,7 +291,7 @@ background-color:rgb(6, 6, 53) ;
 .work__card
 {
 background-color :aliceblue;
-width: 420px;
+width: 30vw;
 }
 #recentworks
 {
@@ -331,7 +331,7 @@ width: 420px;
 .work__link:hover i{
   transform: translateX(.5rem);
 }
-@media screen and (max-width: 1400px) 
+@media screen and (max-width: 1200px) 
 {
   #webdevp
   {
