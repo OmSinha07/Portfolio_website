@@ -260,6 +260,117 @@ ul li a:hover
   color: aqua;  
   font-weight: 300;
 }
+#webdevp
+{
+  display: flex;
+  flex-direction: row;
+  gap: 35px
+
+}
+#pbuttons
+{
+  margin: 5px;
+}
+#imgwebdev
+{
+  width: 450px;
+  height: 300px;
+}
+#projects
+{
+  margin: 20px;
+}
+#projects{
+background-color:rgb(6, 6, 53) ;
+}
+#recentworks
+
+{
+  text-align: center;
+}
+.work__card
+{
+background-color :aliceblue;
+width: 470px;
+}
+#recentworks
+{
+  color: #254aa6;
+}
+.section__tile
+{
+  color: rgb(145, 23, 145)
+}
+.work__link
+{
+  display: block;
+  position: relative;
+  padding: 1rem 0rem 1.5rem 0.5rem;
+  transition: transform .4s;
+}
+.work__title
+{
+  margin-bottom: .75rem;
+}
+.work__description
+{
+  margin-bottom: 1.3rem;
+}
+.work__link i
+{
+  position: absolute;
+  top: 1.8rem;
+  right: 1.5rem;
+  font-size: 1.5rem;
+  transition: transform .45s;
+}
+.work__link:hover
+{
+  transform: translateY(-.45rem);
+}
+.work__link:hover i{
+  transform: translateX(.5rem);
+}
+@media screen and (max-width: 1500px) 
+{
+  #webdevp
+  {
+    display: flex;
+    flex-direction: column;
+    gap: 35px
+  
+  } 
+  #btnd
+  {
+    background-color: rgb(8, 8, 69);
+  color: white;
+  width: 15%;
+  height: 44px;
+  border: solid;
+  border-radius: 2px;
+  cursor: pointer;
+  }
+  #webdevp
+{
+  margin-left: 90px;
+}
+
+#imgwebdev
+{
+  width:40vw;
+  height: 300px;
+}
+#webdevp
+{
+margin: 20px;
+} 
+.work__card
+{
+width: 45vw;
+background-color :aliceblue;
+}
+ 
+}
 @media screen and (max-width: 800px) 
 {
   nav ul li {
@@ -328,7 +439,27 @@ ul li a:hover
 {
   color: rgb(99, 28, 180); 
 }
-  
+#webdevp
+{
+  display: flex;
+  flex-direction: column;
+  gap: 35px
+
+}
+#imgwebdev
+{
+  width:80vw;
+  height: 300px;
+}
+#webdevp
+{
+margin: 20px;
+} 
+.work__card
+{
+width: 85vw;
+background-color :aliceblue;
+}
 }
 
 @media screen and (max-width: 600px) 
@@ -348,10 +479,61 @@ ul li a:hover
     {
       color: rgb(99, 28, 180); 
     }
-      
+
+    #imgwebdev
+{
+  width: 35vw;
+}  
   #aboutid
 {
   margin: 40px;
   
-} 
 }
+#btnd
+{
+  background-color: rgb(8, 8, 69);
+color: white;
+width: 30%;
+height: 44px;
+border: solid;
+border-radius: 2px;
+cursor: pointer;
+}
+#webdevp
+{
+  margin: 20px;
+}
+#imgwebdev
+{
+  width:80vw;
+  height: 300px;
+}
+#webdevp
+{
+margin: 20px;
+} 
+.work__card
+{
+width: 85vw;
+background-color :aliceblue;
+}
+} 
+
+
+@media screen and (max-width: 400px)
+{
+  #imgwebdev
+  {
+    width:80vw;
+    height: 300px;
+  }
+  #webdevp
+{
+  margin: 20px;
+} 
+.work__card
+{
+width: 85vw;
+background-color :aliceblue;
+}
+} 
